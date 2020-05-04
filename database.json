@@ -1,9 +1,93 @@
 {
-    "users": [],
-    "geckos": [],
-    "geckoMorphs": [],
-    "geckoMeals": [],
-    "geckoGallery": [],
-    "marketplace": [],
-    "marketplaceBuyers": []
+  "users": [
+    {
+      "username": "heidi",
+      "email": "heidi@me.com",
+      "password": "1234",
+      "id": 1
+    },
+    {
+      "username": "Tato",
+      "email": "tato@goob.com",
+      "password": "aaa",
+      "id": 2
+    }
+  ],
+  "geckos": [
+    {
+      "userId": 1,
+      "name": "Mittens",
+      "sex": 0,
+      "hatchDate": 1587747600,
+      "profile": "Just a regular derp.",
+      "id": 1
+    },
+    {
+      "userId": 1,
+      "name": "Bernard",
+      "sex": 1,
+      "hatchDate": 1587747600,
+      "profile": "A very tame gecko.",
+      "id": 2
+    },
+    {
+      "userId": 1,
+      "name": "Blep",
+      "sex": 1,
+      "hatchDate": 1587747600,
+      "profile": "",
+      "id": 3
+    }
+  ],
+  "geckoMorphs": [
+    {
+      "geckoId": 1,
+      "colorMorph": "Halloween Mask",
+      "eyeMorph": "Eclipse",
+      "sizeMorph": "Normal",
+      "id": 1
+    },
+    {
+      "geckoId": 2,
+      "colorMorph": "Normal (Wild Type)",
+      "eyeMorph": "Normal",
+      "sizeMorph": "Normal",
+      "id": 2
+    }
+  ],
+  "geckoMeals": [
+    {
+      "geckoId": 1,
+      "mealType": "dubia roach",
+      "quantity": 4,
+      "calciumSupplement": true,
+      "d3Supplement": true,
+      "multivitaminSupplement": false,
+      "mealDate": 1588593600,
+      "id": 1
+    },
+    {
+      "geckoId": 1,
+      "mealType": "waxworm",
+      "quantity": 1,
+      "calciumSupplement": false,
+      "d3Supplement": false,
+      "multivitaminSupplement": false,
+      "mealDate": 1588593600,
+      "id": 2
+    },
+    {
+      "geckoId": 3,
+      "mealType": "mealworm",
+      "quantity": 4,
+      "calciumSupplement": true,
+      "d3Supplement": true,
+      "multivitaminSupplement": false,
+      "mealDate": 1588593600,
+      "id": 3
+    }
+  ],
+  "geckoGallery": [],
+  "marketplace": [],
+  "marketplaceBuyers": []
 }
