@@ -18,76 +18,82 @@
       "userId": 1,
       "name": "Mittens",
       "sex": 0,
-      "hatchDate": 1587747600,
+      "hatchDate": 1559408400,
       "profile": "Just a regular derp.",
+      "imageId": 1,
       "id": 1
     },
     {
       "userId": 1,
-      "name": "Bernard",
+      "name": "Paarthurnax",
       "sex": 1,
-      "hatchDate": 1587747600,
-      "profile": "A very tame gecko.",
-      "id": 2
-    },
-    {
-      "userId": 1,
-      "name": "Blep",
-      "sex": 1,
-      "hatchDate": 1587747600,
+      "hatchDate": 1556730000,
       "profile": "",
-      "id": 3
+      "imageId": 4,
+      "id": 2
     }
   ],
   "geckoMorphs": [
     {
       "geckoId": 1,
-      "colorMorph": "Halloween Mask",
-      "eyeMorph": "Eclipse",
-      "sizeMorph": "Normal",
-      "id": 1
-    },
-    {
-      "geckoId": 2,
       "colorMorph": "Normal (Wild Type)",
       "eyeMorph": "Normal",
       "sizeMorph": "Normal",
-      "id": 2
+      "id": 1
     }
   ],
   "geckoMeals": [
     {
       "geckoId": 1,
-      "mealType": "dubia roach",
-      "quantity": 4,
+      "mealType": "mealworm",
+      "quantity": 5,
       "calciumSupplement": true,
       "d3Supplement": true,
       "multivitaminSupplement": false,
-      "mealDate": 1588593600,
+      "mealDate": 1588766400,
+      "id": 1
+    },
+    {
+      "geckoId": 2,
+      "mealType": "cricket",
+      "quantity": 3,
+      "calciumSupplement": false,
+      "d3Supplement": false,
+      "multivitaminSupplement": true,
+      "mealDate": 1588766400,
+      "id": 2
+    }
+  ],
+  "images": [
+    {
+      "geckoId": 1,
+      "imageURL": "https://res.cloudinary.com/dv5mpxfwl/image/upload/v1588793079/geckospot/wdhlefyvbq9qvj8kxhmm.jpg",
+      "imageNote": "",
+      "uploadDate": 1588793084,
       "id": 1
     },
     {
       "geckoId": 1,
-      "mealType": "waxworm",
-      "quantity": 1,
-      "calciumSupplement": false,
-      "d3Supplement": false,
-      "multivitaminSupplement": false,
-      "mealDate": 1588593600,
+      "imageURL": "https://res.cloudinary.com/dv5mpxfwl/image/upload/v1588793096/geckospot/kl7f9xydh7bjavmz1kcg.jpg",
+      "imageNote": "blep",
+      "uploadDate": 1588793106,
       "id": 2
     },
     {
-      "geckoId": 3,
-      "mealType": "mealworm",
-      "quantity": 4,
-      "calciumSupplement": true,
-      "d3Supplement": true,
-      "multivitaminSupplement": false,
-      "mealDate": 1588593600,
+      "geckoId": 1,
+      "imageURL": "https://res.cloudinary.com/dv5mpxfwl/image/upload/v1588793109/geckospot/ngpvjrlrzphhiv5qodzu.jpg",
+      "imageNote": "",
+      "uploadDate": 1588793113,
       "id": 3
+    },
+    {
+      "geckoId": 2,
+      "imageURL": "https://res.cloudinary.com/dv5mpxfwl/image/upload/v1588795901/geckospot/zsfmcjzi8fw8wzs1abbj.jpg",
+      "imageNote": "",
+      "uploadDate": 1588795947,
+      "id": 4
     }
   ],
-  "geckoGallery": [],
   "marketplace": [],
   "marketplaceBuyers": []
 }
