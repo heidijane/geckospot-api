@@ -13,8 +13,8 @@
       "id": 2
     },
     {
-      "username": "tato4life",
-      "email": "thickdogz2@goob.net",
+      "username": "Cathy",
+      "email": "cathy@me.com",
       "password": "1234",
       "id": 3
     }
@@ -24,8 +24,8 @@
       "userId": 1,
       "name": "Mittens",
       "sex": 0,
-      "hatchDate": 1563451200,
-      "profile": "Has little gecko toes",
+      "hatchDate": 1544292000,
+      "profile": "",
       "imageId": 1,
       "id": 1
     },
@@ -33,130 +33,93 @@
       "userId": 1,
       "name": "Paarthurnax",
       "sex": 1,
-      "hatchDate": 1522602000,
+      "hatchDate": 1530464400,
       "profile": "",
-      "imageId": 4,
+      "imageId": 2,
       "id": 2
     },
     {
-      "userId": 2,
-      "name": "Chicken Wing",
-      "sex": 1,
-      "hatchDate": 1569949200,
+      "userId": 3,
+      "name": "Samantha",
+      "sex": 0,
+      "hatchDate": 1522602000,
       "profile": "",
-      "imageId": 5,
+      "imageId": null,
       "id": 3
     },
     {
-      "userId": 1,
-      "name": "Bandit",
-      "sex": 0,
-      "hatchDate": 1575914400,
-      "profile": "",
-      "imageId": 7,
-      "id": 4
-    },
-    {
-      "userId": 2,
-      "name": "Pumpkin",
-      "sex": 0,
-      "hatchDate": 1559408400,
-      "profile": "",
-      "imageId": 9,
-      "id": 5
-    },
-    {
-      "userId": 2,
-      "name": "Gemma",
-      "sex": 0,
-      "hatchDate": 1563642000,
-      "profile": "",
-      "imageId": 10,
-      "id": 6
-    },
-    {
-      "userId": 1,
-      "name": "Paul",
+      "userId": 3,
+      "name": "Fred",
       "sex": 1,
-      "hatchDate": 1588957200,
-      "profile": "cool",
-      "imageId": 13,
-      "id": 7
+      "hatchDate": 1504285200,
+      "profile": "",
+      "imageId": 3,
+      "id": 4
     }
   ],
   "geckoMorphs": [
+    {
+      "geckoId": 2,
+      "colorMorph": "Black Pearl",
+      "eyeMorph": "Eclipse",
+      "sizeMorph": "Super Giant",
+      "id": 1
+    },
     {
       "geckoId": 1,
       "colorMorph": "Normal (Wild Type)",
       "eyeMorph": "Normal",
       "sizeMorph": "Normal",
-      "id": 1
-    },
-    {
-      "geckoId": 2,
-      "colorMorph": "Black Pearl",
-      "eyeMorph": "Eclipse",
-      "sizeMorph": "Godzilla Super Giant",
       "id": 2
     },
     {
       "geckoId": 3,
-      "colorMorph": "Tremper Albino Patternless",
+      "colorMorph": "Normal (Wild Type)",
       "eyeMorph": "Normal",
       "sizeMorph": "Normal",
       "id": 3
     },
     {
       "geckoId": 4,
-      "colorMorph": "Bold Banded Mack Snow",
+      "colorMorph": "High Yellow",
       "eyeMorph": "Normal",
       "sizeMorph": "Normal",
       "id": 4
-    },
-    {
-      "geckoId": 5,
-      "colorMorph": "Halloween Mask",
-      "eyeMorph": "Normal",
-      "sizeMorph": "Normal",
-      "id": 5
-    },
-    {
-      "geckoId": 6,
-      "colorMorph": "Gem Snow",
-      "eyeMorph": "Normal",
-      "sizeMorph": "Normal",
-      "id": 6
-    },
-    {
-      "geckoId": 7,
-      "colorMorph": "Carrot Tail",
-      "eyeMorph": "Normal",
-      "sizeMorph": "Godzilla Super Giant",
-      "id": 7
     }
   ],
   "geckoMeals": [
     {
       "geckoId": 1,
       "mealType": "mealworm",
-      "quantity": 6,
+      "quantity": 5,
       "calciumSupplement": true,
       "d3Supplement": true,
       "multivitaminSupplement": false,
-      "mealDate": 1588939200,
-      "deleted": true,
+      "mealDate": 1588507200,
+      "deleted": false,
       "id": 1
     },
     {
-      "geckoId": 4,
-      "mealType": "h-puff",
-      "quantity": 2,
-      "calciumSupplement": true,
+      "geckoId": 1,
+      "mealType": "dubia roach",
+      "quantity": 4,
+      "calciumSupplement": false,
+      "d3Supplement": false,
+      "multivitaminSupplement": true,
+      "mealDate": 1588611600,
+      "deleted": false,
+      "id": 2
+    },
+    {
+      "geckoId": 1,
+      "mealType": "waxworm",
+      "quantity": 1,
+      "calciumSupplement": false,
       "d3Supplement": false,
       "multivitaminSupplement": false,
-      "mealDate": 1588939200,
-      "deleted": true,
-      "id": 4
+      "mealDate": 1588698000,
+      "deleted": false,
+      "id": 3
     },
     {
       "geckoId": 1,
@@ -165,20 +128,53 @@
       "calciumSupplement": true,
       "d3Supplement": true,
       "multivitaminSupplement": false,
-      "mealDate": 1588939200,
+      "mealDate": 1588852800,
+      "deleted": false,
+      "id": 4
+    },
+    {
+      "geckoId": 1,
+      "mealType": "mealworm",
+      "quantity": 4,
+      "calciumSupplement": false,
+      "d3Supplement": false,
+      "multivitaminSupplement": false,
+      "mealDate": 1589043600,
       "deleted": false,
       "id": 5
     },
     {
       "geckoId": 1,
-      "mealType": "dubia roach",
-      "quantity": 1,
+      "mealType": "cricket",
+      "quantity": 3,
+      "calciumSupplement": true,
+      "d3Supplement": true,
+      "multivitaminSupplement": false,
+      "mealDate": 1589216400,
+      "deleted": false,
+      "id": 6
+    },
+    {
+      "geckoId": 1,
+      "mealType": "superworm",
+      "quantity": 2,
       "calciumSupplement": false,
       "d3Supplement": false,
       "multivitaminSupplement": true,
-      "mealDate": 1588784400,
+      "mealDate": 1589475600,
       "deleted": false,
-      "id": 6
+      "id": 7
+    },
+    {
+      "geckoId": 1,
+      "mealType": "mealworm",
+      "quantity": 4,
+      "calciumSupplement": false,
+      "d3Supplement": false,
+      "multivitaminSupplement": false,
+      "mealDate": 1589630400,
+      "deleted": false,
+      "id": 8
     },
     {
       "geckoId": 2,
@@ -187,478 +183,261 @@
       "calciumSupplement": false,
       "d3Supplement": false,
       "multivitaminSupplement": true,
-      "mealDate": 1588939200,
+      "mealDate": 1589630400,
       "deleted": false,
-      "id": 7
-    },
-    {
-      "geckoId": 1,
-      "mealType": "cricket",
-      "quantity": 4,
-      "calciumSupplement": false,
-      "d3Supplement": false,
-      "multivitaminSupplement": false,
-      "mealDate": 1588939200,
-      "deleted": true,
-      "id": 8
-    },
-    {
-      "geckoId": 1,
-      "mealType": "dubia roach",
-      "quantity": 6,
-      "calciumSupplement": true,
-      "d3Supplement": true,
-      "multivitaminSupplement": false,
-      "mealDate": 1588939200,
-      "deleted": true,
       "id": 9
     }
   ],
-  "images": [
+  "geckoWeights": [
     {
       "geckoId": 1,
-      "imageURL": "https://res.cloudinary.com/dv5mpxfwl/image/upload/v1588896326/geckospot/zeuu12w5axjtvbqfzpeq.jpg",
-      "imageNote": "hi",
-      "uploadDate": 1588896330,
+      "weight": 3,
+      "weighDate": 1544292000,
       "deleted": false,
       "id": 1
     },
     {
       "geckoId": 1,
-      "imageURL": "https://res.cloudinary.com/dv5mpxfwl/image/upload/v1588896340/geckospot/bjxoowwcmr4hmn21ckyv.jpg",
-      "imageNote": "mlem",
-      "uploadDate": 1588896345,
+      "weight": 15,
+      "weighDate": 1547143200,
       "deleted": false,
       "id": 2
     },
     {
       "geckoId": 1,
-      "imageURL": "https://res.cloudinary.com/dv5mpxfwl/image/upload/v1588896361/geckospot/sovzmfoodtrbarocuhza.jpg",
-      "imageNote": "",
-      "uploadDate": 1588896368,
-      "deleted": true,
+      "weight": 21,
+      "weighDate": 1549735200,
+      "deleted": false,
       "id": 3
     },
     {
-      "geckoId": 2,
-      "imageURL": "https://res.cloudinary.com/dv5mpxfwl/image/upload/v1588897244/geckospot/lfe4kqgbkxxypam7m2uz.jpg",
-      "imageNote": "",
-      "uploadDate": 1588897249,
+      "geckoId": 1,
+      "weight": 25,
+      "weighDate": 1552323600,
       "deleted": false,
       "id": 4
     },
     {
-      "geckoId": 3,
-      "imageURL": "https://res.cloudinary.com/dv5mpxfwl/image/upload/v1588897464/geckospot/stc5toirki13ulpyepyb.webp",
-      "imageNote": "",
-      "uploadDate": 1588897466,
+      "geckoId": 1,
+      "weight": 31,
+      "weighDate": 1555174800,
       "deleted": false,
       "id": 5
     },
     {
-      "geckoId": 3,
-      "imageURL": "https://res.cloudinary.com/dv5mpxfwl/image/upload/v1588897470/geckospot/qv5gel2cxotat4uyv3sz.webp",
-      "imageNote": "",
-      "uploadDate": 1588897472,
+      "geckoId": 1,
+      "weight": 36,
+      "weighDate": 1557853200,
       "deleted": false,
       "id": 6
     },
     {
-      "geckoId": 4,
-      "imageURL": "https://res.cloudinary.com/dv5mpxfwl/image/upload/v1588897566/geckospot/esyc17xvp37wjmrfsirl.webp",
-      "imageNote": "",
-      "uploadDate": 1588897569,
+      "geckoId": 1,
+      "weight": 40,
+      "weighDate": 1560013200,
       "deleted": false,
       "id": 7
     },
     {
-      "geckoId": 4,
-      "imageURL": "https://res.cloudinary.com/dv5mpxfwl/image/upload/v1588897572/geckospot/skoixyec1ib73arpqool.jpg",
-      "imageNote": "",
-      "uploadDate": 1588897574,
-      "deleted": false,
+      "geckoId": 1,
+      "weight": 43,
+      "weighDate": 1589630400,
+      "deleted": true,
       "id": 8
     },
     {
-      "geckoId": 5,
-      "imageURL": "https://res.cloudinary.com/dv5mpxfwl/image/upload/v1588898184/geckospot/ewiupl6s6ee36l5kyxfg.jpg",
-      "imageNote": "",
-      "uploadDate": 1588898186,
+      "geckoId": 1,
+      "weight": 43,
+      "weighDate": 1563037200,
       "deleted": false,
       "id": 9
     },
     {
-      "geckoId": 6,
-      "imageURL": "https://res.cloudinary.com/dv5mpxfwl/image/upload/v1588898584/geckospot/bxhedjzuypk2co4y2pts.jpg",
-      "imageNote": "",
-      "uploadDate": 1588898587,
-      "deleted": false,
+      "geckoId": 1,
+      "weight": 47,
+      "weighDate": 1589630400,
+      "deleted": true,
       "id": 10
     },
     {
       "geckoId": 1,
-      "imageURL": "https://res.cloudinary.com/dv5mpxfwl/image/upload/v1588906989/geckospot/n2x9ez3gwqg5ut1z7hof.jpg",
-      "imageNote": "sleepy",
-      "uploadDate": 1588906993,
-      "deleted": true,
+      "weight": 47,
+      "weighDate": 1565456400,
+      "deleted": false,
       "id": 11
     },
     {
       "geckoId": 1,
-      "imageURL": "https://res.cloudinary.com/dv5mpxfwl/image/upload/v1588964600/geckospot/mmxzfsizahjkmtstoqtt.jpg",
-      "imageNote": "",
-      "uploadDate": 1588964604,
+      "weight": 49,
+      "weighDate": 1568307600,
       "deleted": false,
       "id": 12
     },
     {
-      "geckoId": 7,
-      "imageURL": "https://res.cloudinary.com/dv5mpxfwl/image/upload/v1588965920/geckospot/yteu7ewzolhamqdeue65.jpg",
-      "imageNote": "hi",
-      "uploadDate": 1588965926,
-      "deleted": false,
-      "id": 13
-    }
-  ],
-  "marketplace": [
-    {
-      "geckoId": 4,
-      "sellerId": 2,
-      "price": 65,
-      "listingNotes": "2019 Bold Banded Mack Snow, Het for Eclipse Eyes",
-      "listingDate": 1588897655,
-      "transactionComplete": true,
-      "id": 1,
-      "deleted": false
-    },
-    {
-      "geckoId": 3,
-      "sellerId": 2,
-      "price": 65,
-      "listingNotes": "2019 Albino Tremper Murphy's Patternless Leopard Gecko",
-      "listingDate": 1588897706,
-      "transactionComplete": false,
-      "id": 2,
-      "deleted": false
-    },
-    {
-      "geckoId": 5,
-      "sellerId": 2,
-      "price": 250,
-      "listingNotes": "Halloween mask morph, shipping $25. Currently on live cricket diet.",
-      "listingDate": 1588898246,
-      "transactionComplete": true,
-      "id": 3,
-      "deleted": false
-    },
-    {
-      "geckoId": 6,
-      "sellerId": 2,
-      "price": 150,
-      "listingNotes": "Gem snow and probably W/Y, currently on live mealworm",
-      "listingDate": 1588898691,
-      "transactionComplete": false,
-      "id": 4,
-      "deleted": false
-    },
-    {
-      "geckoId": 5,
-      "sellerId": 1,
-      "price": 100,
-      "listingNotes": "",
-      "listingDate": 1588904396,
-      "transactionComplete": true,
-      "deleted": false,
-      "id": 5
-    },
-    {
-      "geckoId": 5,
-      "sellerId": 2,
-      "price": 100,
-      "listingNotes": "Halloween mask morph, $25 shipping FedEx",
-      "listingDate": 1588906856,
-      "transactionComplete": true,
-      "deleted": false,
-      "id": 6
-    },
-    {
-      "geckoId": 2,
-      "sellerId": 1,
-      "price": 2000,
-      "listingNotes": "expensive boi",
-      "listingDate": 1588908539,
-      "transactionComplete": false,
-      "deleted": true,
-      "id": 7
-    },
-    {
-      "geckoId": 2,
-      "sellerId": 2,
-      "price": 100,
-      "listingNotes": "",
-      "listingDate": 1588948281,
-      "transactionComplete": true,
-      "deleted": false,
-      "id": 8
-    },
-    {
-      "geckoId": 2,
-      "sellerId": 1,
-      "price": 100,
-      "listingNotes": "",
-      "listingDate": 1588948474,
-      "transactionComplete": true,
-      "deleted": false,
-      "id": 9
-    },
-    {
-      "geckoId": 2,
-      "sellerId": 2,
-      "price": 100,
-      "listingNotes": "",
-      "listingDate": 1588948907,
-      "transactionComplete": true,
-      "deleted": false,
-      "id": 10
-    },
-    {
-      "geckoId": 2,
-      "sellerId": 1,
-      "price": 100,
-      "listingNotes": "",
-      "listingDate": 1588954120,
-      "transactionComplete": true,
-      "deleted": false,
-      "id": 11
-    },
-    {
-      "geckoId": 2,
-      "sellerId": 2,
-      "price": 100,
-      "listingNotes": "",
-      "listingDate": 1588954377,
-      "transactionComplete": true,
-      "deleted": false,
-      "id": 12
-    },
-    {
-      "geckoId": 5,
-      "sellerId": 1,
-      "price": 100,
-      "listingNotes": "",
-      "listingDate": 1588954495,
-      "transactionComplete": true,
+      "geckoId": 1,
+      "weight": 52,
+      "weighDate": 1570899600,
       "deleted": false,
       "id": 13
     },
     {
-      "geckoId": 2,
-      "sellerId": 1,
-      "price": 100,
-      "listingNotes": "",
-      "listingDate": 1588954654,
-      "transactionComplete": true,
+      "geckoId": 1,
+      "weight": 55,
+      "weighDate": 1573927200,
       "deleted": false,
       "id": 14
     },
     {
-      "geckoId": 5,
-      "sellerId": 2,
-      "price": 100,
-      "listingNotes": "",
-      "listingDate": 1588954814,
-      "transactionComplete": false,
-      "deleted": true,
+      "geckoId": 1,
+      "weight": 58,
+      "weighDate": 1576346400,
+      "deleted": false,
       "id": 15
     },
     {
-      "geckoId": 5,
-      "sellerId": 2,
-      "price": 100,
-      "listingNotes": "",
-      "listingDate": 1588954850,
-      "transactionComplete": false,
-      "deleted": true,
+      "geckoId": 1,
+      "weight": 60,
+      "weighDate": 1578765600,
+      "deleted": false,
       "id": 16
     },
     {
-      "geckoId": 2,
-      "sellerId": 2,
-      "price": 100,
-      "listingNotes": "",
-      "listingDate": 1588954874,
-      "transactionComplete": true,
+      "geckoId": 1,
+      "weight": 62,
+      "weighDate": 1581184800,
       "deleted": false,
       "id": 17
     },
     {
-      "geckoId": 5,
-      "sellerId": 2,
-      "price": 100,
-      "listingNotes": "",
-      "listingDate": 1588955166,
-      "transactionComplete": true,
+      "geckoId": 1,
+      "weight": 65,
+      "weighDate": 1584205200,
       "deleted": false,
       "id": 18
     },
     {
-      "geckoId": 2,
-      "sellerId": 1,
-      "price": 100,
-      "listingNotes": "",
-      "listingDate": 1588955484,
-      "transactionComplete": true,
+      "geckoId": 1,
+      "weight": 68,
+      "weighDate": 1586624400,
       "deleted": false,
       "id": 19
     },
     {
-      "geckoId": 5,
-      "sellerId": 2,
-      "price": 100,
-      "listingNotes": "",
-      "listingDate": 1588955519,
-      "transactionComplete": true,
+      "geckoId": 1,
+      "weight": 65,
+      "weighDate": 1589630400,
       "deleted": false,
       "id": 20
     },
     {
-      "geckoId": 5,
-      "sellerId": 1,
-      "price": 100,
-      "listingNotes": "",
-      "listingDate": 1588955585,
-      "transactionComplete": true,
-      "deleted": false,
+      "geckoId": 1,
+      "weight": 50,
+      "weighDate": 1589630400,
+      "deleted": true,
       "id": 21
     },
     {
-      "geckoId": 5,
-      "sellerId": 2,
-      "price": 100,
-      "listingNotes": "",
-      "listingDate": 1588955727,
-      "transactionComplete": true,
-      "deleted": false,
+      "geckoId": 1,
+      "weight": 66,
+      "weighDate": 1589734800,
+      "deleted": true,
       "id": 22
     },
     {
-      "geckoId": 5,
-      "sellerId": 1,
-      "price": 100,
-      "listingNotes": "",
-      "listingDate": 1588955843,
-      "transactionComplete": true,
-      "deleted": false,
+      "geckoId": 1,
+      "weight": 100,
+      "weighDate": 1589630400,
+      "deleted": true,
       "id": 23
     },
     {
-      "geckoId": 5,
-      "sellerId": 2,
-      "price": 150,
-      "listingNotes": "Beautiful gecko! Ships FedEx, $25. Currently on live cricket diet.",
-      "listingDate": 1588956156,
-      "transactionComplete": false,
-      "deleted": false,
+      "geckoId": 1,
+      "weight": 9000,
+      "weighDate": 1589630400,
+      "deleted": true,
       "id": 24
     },
     {
-      "geckoId": 4,
-      "sellerId": 2,
-      "price": 75,
-      "listingNotes": "",
-      "listingDate": 1588956796,
-      "transactionComplete": true,
-      "deleted": false,
+      "geckoId": 2,
+      "weight": 9000,
+      "weighDate": 1589630400,
+      "deleted": true,
       "id": 25
     },
     {
-      "geckoId": 7,
-      "sellerId": 1,
-      "price": 425,
-      "listingNotes": "He is really cool",
-      "listingDate": 1588965985,
-      "transactionComplete": false,
-      "deleted": false,
+      "geckoId": 2,
+      "weight": 9001,
+      "weighDate": 1589562000,
+      "deleted": true,
       "id": 26
+    },
+    {
+      "geckoId": 1,
+      "weight": 66,
+      "weighDate": 1589630400,
+      "deleted": true,
+      "id": 27
+    },
+    {
+      "geckoId": 1,
+      "weight": 66,
+      "weighDate": 1589734800,
+      "deleted": false,
+      "id": 28
+    },
+    {
+      "geckoId": 2,
+      "weight": 9000,
+      "weighDate": 1589630400,
+      "deleted": true,
+      "id": 29
+    },
+    {
+      "geckoId": 2,
+      "weight": 9050,
+      "weighDate": 1589475600,
+      "deleted": true,
+      "id": 30
     }
   ],
-  "marketplaceBuyers": [
+  "geckoParents": [],
+  "images": [
     {
-      "marketplaceId": 14,
-      "buyerId": 2,
-      "transactionComplete": true,
-      "purchased": true,
+      "geckoId": 1,
+      "imageURL": "https://res.cloudinary.com/dv5mpxfwl/image/upload/v1589652136/geckospot/kcwniaevbp1p6lxkkynf.jpg",
+      "imageNote": "hi",
+      "uploadDate": 1589652152,
+      "deleted": false,
       "id": 1
     },
     {
-      "marketplaceId": 17,
-      "buyerId": 1,
-      "transactionComplete": true,
-      "purchased": true,
+      "geckoId": 2,
+      "imageURL": "https://res.cloudinary.com/dv5mpxfwl/image/upload/v1589662731/geckospot/pmhumd1kglviicnpf1op.jpg",
+      "imageNote": "",
+      "uploadDate": 1589662733,
+      "deleted": false,
       "id": 2
     },
     {
-      "marketplaceId": 18,
-      "buyerId": 1,
-      "transactionComplete": true,
-      "purchased": true,
+      "geckoId": 4,
+      "imageURL": "https://res.cloudinary.com/dv5mpxfwl/image/upload/v1589678153/geckospot/vkd0wqlvfdx2mrdaazoc.jpg",
+      "imageNote": "",
+      "uploadDate": 1589678155,
+      "deleted": false,
       "id": 3
-    },
-    {
-      "marketplaceId": 20,
-      "buyerId": 1,
-      "transactionComplete": true,
-      "purchased": true,
-      "id": 4
-    },
-    {
-      "marketplaceId": 21,
-      "buyerId": 2,
-      "transactionComplete": true,
-      "purchased": true,
-      "id": 5
-    },
-    {
-      "marketplaceId": 22,
-      "buyerId": 1,
-      "transactionComplete": true,
-      "purchased": true,
-      "id": 6
-    },
-    {
-      "marketplaceId": 23,
-      "buyerId": 2,
-      "transactionComplete": true,
-      "purchased": true,
-      "id": 7
-    },
-    {
-      "marketplaceId": 1,
-      "buyerId": 3,
-      "transactionComplete": true,
-      "purchased": true,
-      "id": 8
-    },
-    {
-      "marketplaceId": 25,
-      "buyerId": 2,
-      "transactionComplete": true,
-      "purchased": true,
-      "id": 9
-    },
-    {
-      "marketplaceId": 25,
-      "buyerId": 1,
-      "transactionComplete": true,
-      "purchased": true,
-      "id": 10
-    },
-    {
-      "marketplaceId": 26,
-      "buyerId": 2,
-      "transactionComplete": true,
-      "purchased": true,
-      "id": 11
     }
-  ]
+  ],
+  "marketplace": [
+    {
+      "geckoId": 2,
+      "sellerId": 1,
+      "price": 2000,
+      "listingNotes": "Super rare melanistic gecko",
+      "listingDate": 1589678333,
+      "transactionComplete": false,
+      "deleted": false,
+      "id": 1
+    }
+  ],
+  "marketplaceBuyers": []
 }
